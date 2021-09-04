@@ -11,18 +11,15 @@ const Contact = () => {
             <div className="container">
                 <Form>
                     <Form.Group className="mb-3" >
-                        <Form.Label style={{color:"white"}}>Name</Form.Label>
-                        <Form.Control type="email" placeholder="Enter name" />
+                        <Form.Control type="name" placeholder="Enter name" />
+                    </Form.Group>
 
-                        <Form.Label style={{color:"white"}}>Email</Form.Label>
+                    <Form.Group className="mb-3" >
                         <Form.Control type="email" placeholder="Enter email" />
-
-
                     </Form.Group>
 
                     <Form.Group className="mb-3">
-                        <Form.Label style={{color:"white"}}>Message</Form.Label>
-                        <Form.Control as="textarea" rows={3} />
+                        <Form.Control as="textarea" rows={3} placeholder="Enter Message"/>
                     </Form.Group>
                     <div>
                         <Button id="send-message" style={{ marginLeft: "670px", marginTop: "40px", marginBottom: "100px" }}> SEND MESSAGE </Button>
