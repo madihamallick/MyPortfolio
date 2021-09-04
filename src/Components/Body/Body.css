@@ -1,0 +1,79 @@
+.body{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+#welcome-text{
+    position: absolute;
+    top: 220px;
+}
+
+#content{
+    position: absolute;
+    top: 330px;
+    left: 160px;
+    font-size: 50px;
+}
+
+#text{
+    position: absolute;
+    top: 430px;
+    left: 160px;
+    width: 600px;
+}
+
+.banner_social_link{
+    position: absolute;
+    top: 500px;
+    left: 110px;
+}
+
+li{
+    float: left;
+    margin-left: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+.banner_social_link button{
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #ffb400;
+    background-color: black;
+    color: #ffb400;
+}
+
+
+.banner_social_link button:hover{
+    background-color: #ffb400;
+    color: white;
+}
+
+#cv-download{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    padding: 14px 22px;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    background: #ffb400;
+    line-height: 10px;
+    border-radius: 30px;
+    border: 1px solid #ffb300;
+    position: absolute;
+    top: 590px;
+    left: -520px;
+}
+
+#cv-download:hover{
+    color: #ffb400;
+    background: #fff;
+}

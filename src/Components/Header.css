@@ -1,0 +1,19 @@
+#name{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffb400;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav-menu{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    margin-left: 10px;
+}
+
+#nav-menu:hover{
+    color: #ffb400;
+}
